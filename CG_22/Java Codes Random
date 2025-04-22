@@ -1,0 +1,97 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        // Program to find Whether the given Number is Prime or not
+    //   int n = 5;
+    //   isPrime(n);
+    // }
+    // public static void isPrime(int n){
+    //     int c = 2;
+    //     while(c*c <= n){
+    //         if(n%c == 0){
+    //             System.out.println("Even Number");
+    //         }
+    //         c++;
+    //     }
+    //   System.out.println("Even number");
+    
+    // Program to find the factorial of a given Number:
+    // int n = 76;
+    // FactorsOfNum(n);
+    // }
+    // static void FactorsOfNum(int n){
+    //      ArrayList<Integer> list = new ArrayList<>();
+    //     for(int i =1;i<=Math.sqrt(n);i++){
+    //       if(n%i == 0){
+    //           if(n%i == i){
+    //               System.out.print(i+" ");
+    //           }else{
+    //               System.out.print(i+" ");
+    //               list.add(n/i);
+    //           }
+    //       }
+            
+    //     }
+    //     for(int i =list.size()-1;i>=0;i--){
+    //         System.out.print(list.get(i)+" ");
+            
+    //     }
+    
+    
+    // program to find the factorial of a given number.
+    // int n = 10;
+    // int fact = 1;
+    // for(int i = 1;i<=n;i++){
+    //     fact *= i;
+    // }
+    // System.out.println(fact);
+    
+    // wap to find the summation of all the digits in a given number
+    
+    // Program to find Spy Number:
+    int n = 123;
+    int sum = 0;
+    int prod = 1;
+    while(n>0){
+        int last = n % 10;
+        prod *= last;
+        sum += last;
+        n = n/10;
+    }if(prod == sum){
+        System.out.println("Spy Number");
+    }else{
+        System.out.println("Not Spy Number");
+    }
+    // System.out.println(sum);
+    
+    // double n = 36;
+    // while(true){
+    //     double x = n;
+    //     double root = 0.5 * (x+(n/x));
+    //     if(Math.abs(root - x) < 0.5){
+    //         break;
+    //     }
+    //     x = root;
+    // }
+    // System.out.println(root);
+    
+    // Program to find Palindrome:
+    // String name = "RACECAR";
+    // System.out.println(palindrome(name));
+    // }
+    // static boolean palindrome(String name){
+    //     for(int i=0;i<name.length()/2;i++){
+    //         if(name.charAt(i)==name.charAt(name.length()-i-1)){
+    //             return true;
+    //         }
+    //     }
+    //     return false;
+     }
+}
+
+
+
+
+
+
+
